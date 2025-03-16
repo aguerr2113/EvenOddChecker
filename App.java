@@ -18,7 +18,8 @@ public class App {
         } else {
             System.out.println("Your number " +number+ " is odd");
         }
-
+        // Close the scanner to prevent memory leaks
+        sc.close();
     }
 }
 
