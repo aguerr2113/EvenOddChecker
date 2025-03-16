@@ -12,6 +12,12 @@ public class App {
         // save the the scanner object to the variable used in the function
         number = sc.nextInt();
 
+        // create a if else statement to check if number is even or odd using modulo operator
+        if (number % 2 == 0) {
+            System.out.println("Your number " +number+ " is even");
+        } else {
+            System.out.println("Your number " +number+ " is odd");
+        }
 
     }
 }
